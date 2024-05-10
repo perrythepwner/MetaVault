@@ -7,7 +7,7 @@ contract Setup {
 
     constructor() payable {
         TARGET = new MetaVault();
-        TARGET.deposit{value: 10 ether}();
+        TARGET.deposit{value: 100 ether}();
     }
 
     function isSolved() public view returns (bool) {
